@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Parle-G",
+    "description": "Biscuit",
+    "price": 5,
+    "category": "Food"
+  },
+  {
+    "id": 2,
+    "name": "Table",
+    "description": "Made of wood",
+    "price": 2500,
+    "category": "Funiture"
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "description": "This is product 3",
+    "price": 14.99,
+    "category": "Category A"
+  },
+  {
+    "id": 4,
+    "name": "Pen",
+    "description": "Cellopointec",
+    "price": 20,
+    "category": "Stationary"
+  }
+]
