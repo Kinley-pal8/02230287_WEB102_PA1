@@ -19,7 +19,7 @@ This project showcases a basic Node.js server designed to perform CRUD (Create, 
 
 To start the server, execute the following command in your terminal:
 
-![alt text](../assets/1.png)
+![alt text](/assets/1.png)
 
 The server will begin listening on `http://localhost:8081`.
 
@@ -62,3 +62,7 @@ If a product ID is provided as a query parameter, the server returns the details
 - **HTTP Method**: DELETE
 - **URL Parameter**: `id` - The ID of the product to delete.
 - **Response**: A JSON object representing the deleted product.
+
+## Error Handling
+
+The code implements robust error handling by using try-catch blocks to catch and handle errors related to file I/O, JSON parsing, and HTTP request processing. It also provides clear feedback to the client through HTTP status codes and error messages, ensuring that the application can recover from errors and maintain a consistent user experience.
