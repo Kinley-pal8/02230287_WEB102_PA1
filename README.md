@@ -13,7 +13,7 @@ This project showcases a basic Node.js server designed to perform CRUD (Create, 
 1. Clone this repository or download the code.
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing the downloaded code.
-4. Run `npm install` to install the required dependencies (`http`, `fs`, and `url` modules are built-in, so no additional packages are needed).
+4. Run `npm install` to install the required dependencies (`http` and `fs`  modules are built-in, so no additional packages are needed).
 
 ## Running the Server
 
@@ -33,6 +33,17 @@ The server will begin listening on `http://localhost:8081`.
 
 If a product ID is provided as a query parameter, the server returns the details of that specific product.
 
+![alt text](/assets/2.png)
+
+### GET `/products?id=id`
+
+- **Description**: Retrieves a specific product.
+- **HTTP Method**: GET
+- **Response**: A JSON array of a specific product.
+
+![alt text](/assets/3.png)
+
+
 ### POST `/products`
 
 - **Description**: Creates a new product.
@@ -40,7 +51,10 @@ If a product ID is provided as a query parameter, the server returns the details
 - **Request Body**: A JSON object representing the new product.
 - **Response**: A JSON object representing the newly created product.
 
-### PUT `/products/:id`
+![alt text](/assets/4.png)
+
+
+### PUT `/products?id=id`
 
 - **Description**: Updates an existing product.
 - **HTTP Method**: PUT
@@ -48,7 +62,9 @@ If a product ID is provided as a query parameter, the server returns the details
 - **Request Body**: A JSON object with the fields to update.
 - **Response**: A JSON object representing the updated product.
 
-### PATCH `/products/:id`
+![alt text](/assets/5.png)
+
+### PATCH `/products?id=id`
 
 - **Description**: Partially updates an existing product.
 - **HTTP Method**: PATCH
@@ -56,12 +72,16 @@ If a product ID is provided as a query parameter, the server returns the details
 - **Request Body**: A JSON object with the fields to update.
 - **Response**: A JSON object representing the updated product.
 
-### DELETE `/products/:id`
+![alt text](/assets/6.png)
+
+### DELETE `/products?id=id`
 
 - **Description**: Deletes an existing product.
 - **HTTP Method**: DELETE
 - **URL Parameter**: `id` - The ID of the product to delete.
 - **Response**: A JSON object representing the deleted product.
+
+![alt text](/assets/7.png)
 
 ## Error Handling
 
